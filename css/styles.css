@@ -1,0 +1,43 @@
+section {
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+}
+
+div {
+	width: 150px;
+	height: 150px;
+	background-color: orange;
+	margin: 25px;
+	text-align: center;
+	display: table;
+}
+
+p {
+	margin: 0;
+	display: table-cell;
+	vertical-align: middle;
+}
+
+.s01-border-radius {
+	border-radius: 50%;
+	background-color: yellow;
+}
+.s02-box-shadow {
+	box-shadow: 2px 4px 4px #000;
+	background-color: red;
+}
+.s03-text-shadow {
+	font-size: 26px;
+	text-shadow: 1px 2px 2px #888;
+}
+.s04-opacity {
+	opacity: 0.75;
+	background-color: blue;
+}
+.s05-linear-gradient {
+	background: linear-gradient(to bottom, red, yellow);
+}
+.s06-radial-gradient {
+	background: radial-gradient(aqua, blue);
+}
